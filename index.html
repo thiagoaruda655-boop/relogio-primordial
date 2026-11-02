@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Duelo de Mitos - Relogio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header"><h1>DUELO DE MITOS</h1><p>RELOGIO PRIMORDIAL</p></header>
+    <section class="card">
+      <h2>1. ESTACAO INICIAL</h2>
+      <div class="grid" id="sGrid">
+        <button class="opt" data-s="0">Primavera</button>
+        <button class="opt" data-s="1">Verao</button>
+        <button class="opt" data-s="2">Outono</button>
+        <button class="opt" data-s="3">Inverno</button>
+      </div>
+      <h2 style="margin-top:16px">2. FASE DO DIA</h2>
+      <div class="grid" id="pGrid">
+        <button class="opt" data-p="0">Noite</button>
+        <button class="opt" data-p="1">Aurora</button>
+        <button class="opt" data-p="2">Dia</button>
+        <button class="opt" data-p="3">Crepusculo</button>
+      </div>
+    </section>
+    <section class="clock">
+      <div class="bigIcon" id="icon">🌙</div>
+      <div class="bigPhase" id="phase">NOITE</div>
+      <div class="bigSeason" id="season">PRIMAVERA</div>
+      <div class="badge" id="window">Noite / Primavera</div>
+      <div class="stats"><span id="yearInfo">ANO 1 - TURNO 1/8</span><span id="winInfo">JANELA 1/16</span></div>
+      <div class="dots" id="dots"></div>
+      <button class="btn" id="next" disabled>SELECIONE ACIMA</button>
+    </section>
+    <section class="card"><h2>HISTORICO</h2><div class="log" id="log">Escolha estacao e fase...</div></section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

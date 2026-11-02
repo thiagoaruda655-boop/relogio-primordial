@@ -1,0 +1,25 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#070A0F;color:#E8E2D5;font-family:Arial,sans-serif;min-height:100vh;display:flex;justify-content:center;padding:16px}
+.app{width:100%;max-width:400px}
+.header{text-align:center;padding:24px 0 12px}
+.header h1{font-size:18px;letter-spacing:5px;color:#D4A017}
+.header p{font-size:10px;letter-spacing:3px;color:#888;margin-top:6px}
+.card{background:#11151E;border:1px solid #263044;border-radius:20px;padding:18px;margin-top:12px}
+.card h2{font-size:11px;letter-spacing:2px;color:#7A8194;margin-bottom:12px;text-align:center}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.opt{padding:12px;border-radius:12px;border:1px solid #2A354A;background:#151B27;color:#C7C3B8;font-size:13px;cursor:pointer}
+.opt.active{border-color:#D4A017;background:#2A2210;color:#FFD86A}
+.clock{margin-top:16px;background:#121A28;border-radius:28px;border:1px solid #263044;padding:22px;text-align:center}
+.bigIcon{font-size:56px}
+.bigPhase{font-size:32px;letter-spacing:4px;margin-top:8px;font-weight:bold}
+.bigSeason{font-size:14px;letter-spacing:5px;color:#D4A017;margin-top:4px}
+.badge{display:inline-block;margin-top:12px;background:#0B0F18;border:1px solid #263044;padding:6px 14px;border-radius:30px;font-size:11px;color:#8B8FA0}
+.stats{display:flex;justify-content:space-between;margin-top:16px;font-size:11px;color:#6B7080}
+.dots{display:flex;gap:6px;margin-top:10px}
+.dots span{flex:1;height:8px;border-radius:4px;background:#1A2233;border:1px solid #263044}
+.dots span.on{background:#D4A017}
+.dots span.now{background:#FFD86A;box-shadow:0 0 10px #D4A017}
+.btn{width:100%;margin-top:16px;padding:18px;border-radius:16px;border:none;font-weight:800;letter-spacing:3px;font-size:14px;cursor:pointer;background:#E7B62A;color:#201A08}
+.btn:disabled{background:#1A2233;color:#4A5060}
+.log{margin-top:4px;background:#0D1118;border:1px solid #1E2633;border-radius:14px;padding:12px;max-height:140px;overflow:auto;font-size:11px;line-height:1.6;color:#8A8FA0}
+.log b{color:#D4A017}
